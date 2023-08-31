@@ -3,21 +3,20 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     overflow: hidden;
-    animation: gradientAnimation 10s infinite;
-    background: linear-gradient(to bottom, black, #220033);
+    animation: gradientAnimation 10s infinite alternate;
+    background: linear-gradient(to bottom, #220033, black);
+    transition: background-color 1s ease-in-out;
 }
 
 @keyframes gradientAnimation {
     0% {
-        background: linear-gradient(to bottom, black, #220033);
-    }
-    50% {
         background: linear-gradient(to bottom, #220033, black);
     }
     100% {
         background: linear-gradient(to bottom, black, #220033);
     }
 }
+
 
 
 /* Reset some default styles */
