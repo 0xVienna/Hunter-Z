@@ -64,3 +64,14 @@ nav ul li a {
 .download-button:hover, .discord-button:hover {
     background-color: #663399;
 }
+
+/* Add this CSS rule */
+.centered-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
