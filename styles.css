@@ -96,3 +96,10 @@ nav ul li a {
     text-align: center;
 }
 
+.preview-bar {
+  background-color: #7289DA;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
