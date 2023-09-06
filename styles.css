@@ -62,7 +62,7 @@ nav ul li a {
     margin-top: 20px;
 }
 
-.download-button, .discord-button, .alternate-download, .key {
+.download-button, .discord-button {
     display: inline-block;
     padding: 10px 20px;
     margin: 0 10px;
@@ -73,8 +73,19 @@ nav ul li a {
     font-weight: bold;
 }
 
-.download-button:hover, .discord-button:hover, .alternate-download:hover, .key:hover {
+.alternate-download, .key {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 20px;
     background-color: darkviolet;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.download-button:hover, .discord-button:hover, .alternate-download:hover, .key:hover {
+    background-color: darkpurple;
 }
 
 /* Add this CSS rule */
