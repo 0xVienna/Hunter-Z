@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Inter, sans-serif;
     overflow: hidden;
     background: linear-gradient(90deg, #9400d3, #0a0a0a);
     transition: background-color 1s ease-in-out;
@@ -19,11 +19,11 @@ body, h1, h2, h3, p, ul, li {
 body {
     background-color: black;
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: Inter, sans-serif;
 }
 
 header {
-    background-color: darkpurple;
+    background-color: darkviolet;
     padding: 10px 0;
 }
 
@@ -62,19 +62,19 @@ nav ul li a {
     margin-top: 20px;
 }
 
-.download-button, .discord-button {
+.download-button, .discord-button, .alternate-download, .key {
     display: inline-block;
     padding: 10px 20px;
     margin: 0 10px;
-    background-color: darkpurple;
+    background-color: darkviolet;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
 }
 
-.download-button:hover, .discord-button:hover {
-    background-color: #663399;
+.download-button:hover, .discord-button:hover, .alternate-download:hover, .key:hover {
+    background-color: darkviolet;
 }
 
 /* Add this CSS rule */
